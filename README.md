@@ -33,3 +33,8 @@ Open:
 - **Auto**: continuously drops balls
 - **Reset**: clear balls, bins, and score
 - Click the board to drop at your cursor X position
+
+## Project links
+
+- Docs: [`docs/`](./docs/)
+- GitHub Pages demo: published from [`demo/`](./demo/) via Actions

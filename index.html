@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WASM Pachinko</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>WASM Pachinko</h1>
+      <div class="controls">
+        <button id="dropBtn">Drop Ball</button>
+        <button id="autoBtn" aria-pressed="false">Auto: Off</button>
+        <button id="resetBtn">Reset</button>
+        <span id="score">Score: 0</span>
+        <span id="balls">Balls: 0</span>
+      </div>
+      <canvas id="game" width="800" height="900"></canvas>
+      <p class="hint">Click the board to drop a ball at that x-position.</p>
+      <div id="bins"></div>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

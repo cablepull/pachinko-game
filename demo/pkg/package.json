@@ -1,0 +1,15 @@
+{
+  "name": "pachinko_game",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "pachinko_game_bg.wasm",
+    "pachinko_game.js",
+    "pachinko_game.d.ts"
+  ],
+  "main": "pachinko_game.js",
+  "types": "pachinko_game.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

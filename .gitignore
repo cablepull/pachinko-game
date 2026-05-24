@@ -1,3 +1,5 @@
 target/
 pkg/
+!demo/pkg/
+!demo/pkg/**
 .DS_Store
